@@ -2,11 +2,9 @@ int main(){
     int secretNumber = 3;
     int userGuess;
 
-
     printf("What's your guess? ");
     scanf("%d", &userGuess);
 
-    
     if (userGuess == secretNumber){
         printf("Congratulations!");
     } else {
