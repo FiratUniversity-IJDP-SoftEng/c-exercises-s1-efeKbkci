@@ -5,6 +5,7 @@ int main(){
 
     printf("What's your guess? ");
     scanf("%d", &userGuess);
+
     
     if (userGuess == secretNumber){
         printf("Congratulations!");
