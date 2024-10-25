@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 int main(){
     int secretNumber = 3;
     int userGuess;
