@@ -2,15 +2,14 @@
 
 int main(void){
 
-    do
-    {
+    int age;
+    int counter = 0;
 
-        printf("What's your age?\n");
+    printf("What's your age? ");
 
-        scanf("%d");
-        
-        printf("Happy Birthday!");
-        
-    } while (0);
-    
+    scanf("%d",&age);
+
+    for ( ; counter<=age; counter++ ){
+        printf("Happy Birthday!\n");
+    }
 }
